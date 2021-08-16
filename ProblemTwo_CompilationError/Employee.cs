@@ -30,5 +30,9 @@ namespace ProblemTwo_CompilationError
             return Math.Abs(monthsApart);
         }
 
+        public static implicit operator Employee(DirectReport v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
